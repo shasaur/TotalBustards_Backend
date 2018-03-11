@@ -1,14 +1,12 @@
 package com.mycompany.app;
 
 public class BusStop {
-	Double lat;
-	Double lon;
+	LocXY loc;
 	String name;
 	
-	public BusStop(String n, Double la, Double lo) {
+	public BusStop(String n, LocXY loc) {
 		name = n;
-		lat = la;
-		lon = lo;
+		this.loc = loc;
 	}
 	
 }
